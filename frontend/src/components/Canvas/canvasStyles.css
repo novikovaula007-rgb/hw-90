@@ -1,0 +1,25 @@
+.canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    border: 1px solid #aaaaaa;
+    background-color: #ffffff;
+    display: block;
+    cursor: crosshair;
+    align-self: center;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #cccccc;
+    padding: 10px 0 50px;
+}
